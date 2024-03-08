@@ -1,10 +1,12 @@
 import {Post} from "./Post";
+import { Header } from "./components/Header";
 
-import "./styles.css";
+import './global.css';
 
 export function App() {
   return (
     <div>
+      <Header/>
       <Post
         author="Denis Cardoso"
         content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias suscipit neque architecto, voluptatibus, id quam laboriosam ullam velit omnis sint quos nesciunt commodi porro! Consequatur excepturi dicta impedit adipisci doloremque!"
